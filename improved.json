@@ -1,0 +1,479 @@
+{
+    "scenarios": [
+      {
+        "condition": "Minor Cut",
+        "patterns": ["minor cut", "small cut", "scrape", "abrasion"],
+        "response": {
+          "emergency_help": "Emergency help is not typically required unless the bleeding does not stop after 10 minutes or if the wound shows signs of infection.",
+          "first_aid_steps": [
+            "Wash your hands with soap and water to prevent infection.",
+            "Gently rinse the wound under clean, running water to remove debris.",
+            "Apply an antiseptic to the wound and cover it with a sterile bandage or dressing.",
+            "Monitor the wound for signs of infection, such as redness, swelling, or pus."
+          ],
+          "warnings": [
+            "Avoid touching the wound with unclean hands.",
+            "Do not use alcohol or hydrogen peroxide directly on the wound, as it may irritate the tissue."
+          ]
+        }
+      },
+      {
+        "condition": "Deep Cut",
+        "patterns": ["deep cut", "gash", "severe laceration"],
+        "response": {
+          "emergency_help": "Seek immediate medical attention if the bleeding cannot be controlled after applying pressure for 10 minutes or if the wound is deep and wide.",
+          "first_aid_steps": [
+            "Wash your hands thoroughly with soap and water.",
+            "Apply firm pressure to the wound using a clean cloth or sterile gauze to stop bleeding.",
+            "If possible, elevate the affected area above the heart to slow bleeding.",
+            "Cover the wound with a sterile dressing or bandage after the bleeding slows."
+          ],
+          "warnings": [
+            "Do not remove embedded objects; stabilize them in place and seek emergency care.",
+            "Avoid applying ointments or creams until a healthcare professional has assessed the wound."
+          ]
+        }
+      },
+      {
+        "condition": "Cuts from Sharp Objects",
+        "patterns": ["cut from glass", "knife cut", "sharp object wound"],
+        "response": {
+          "emergency_help": "Seek emergency help if the wound is deep, the object is embedded, or bleeding is uncontrollable.",
+          "first_aid_steps": [
+            "Stabilize any embedded objects without removing them.",
+            "Apply pressure around the wound to control bleeding without pressing directly on the object.",
+            "Cover the area with a clean, non-stick dressing or cloth.",
+            "Seek immediate medical attention for further care."
+          ],
+          "warnings": [
+            "Do not attempt to remove embedded objects yourself.",
+            "Avoid rinsing the wound if there are foreign objects embedded."
+          ]
+        }
+      },
+      {
+        "condition": "Infected Cut",
+        "patterns": ["infected cut", "infected wound", "red swollen cut"],
+        "response": {
+          "emergency_help": "Contact a healthcare provider if you notice redness, swelling, pus, or fever accompanying the wound.",
+          "first_aid_steps": [
+            "Clean the wound thoroughly with soap and warm water.",
+            "Apply an antibiotic ointment to help prevent the infection from worsening.",
+            "Cover the wound with a clean bandage and change it regularly.",
+            "Monitor for spreading infection, such as increasing redness or swelling."
+          ],
+          "warnings": [
+            "Do not ignore signs of infection; untreated infections can lead to complications.",
+            "Avoid squeezing or trying to drain the wound yourself."
+          ]
+        }
+      },
+      {
+        "condition": "Puncture Wound",
+        "patterns": ["puncture wound", "stab wound", "deep puncture"],
+        "response": {
+          "emergency_help": "Seek emergency assistance if the wound is deep, bleeding is uncontrollable, or if the object causing the wound was dirty or rusted.",
+          "first_aid_steps": [
+            "Do not remove any embedded objects; stabilize them in place.",
+            "Control bleeding by applying gentle pressure around the wound with a clean cloth.",
+            "Clean the surrounding area with soap and water, avoiding deep cleaning of the wound itself.",
+            "Cover with a sterile dressing and seek medical attention if necessary."
+          ],
+          "warnings": [
+            "Do not probe the wound to find foreign objects.",
+            "Avoid using hydrogen peroxide or iodine inside the wound."
+          ]
+        }
+      },
+      {
+        "condition": "Laceration",
+        "patterns": ["laceration", "tear in skin", "cut with jagged edges"],
+        "response": {
+          "emergency_help": "Seek medical attention for large or deep lacerations, especially if bleeding doesn’t stop after 10 minutes of pressure.",
+          "first_aid_steps": [
+            "Wash your hands to prevent infection.",
+            "Apply firm pressure to stop bleeding using a clean cloth or sterile gauze.",
+            "Clean the wound with water to remove dirt or debris.",
+            "Cover with a sterile dressing and keep the area clean."
+          ],
+          "warnings": [
+            "Do not use adhesive bandages if the wound is large or gaping.",
+            "Avoid removing clots formed naturally to stop bleeding."
+          ]
+        }
+      },
+      {
+        "condition": "Abrasion",
+        "patterns": ["abrasion", "scrape", "skin rubbed off"],
+        "response": {
+          "emergency_help": "Medical assistance is generally not needed unless the wound covers a large area or shows signs of infection.",
+          "first_aid_steps": [
+            "Clean the wound thoroughly with running water to remove debris.",
+            "Apply an antiseptic to the area.",
+            "Cover with a breathable sterile dressing to protect the wound."
+          ],
+          "warnings": [
+            "Do not use rough materials like cotton to clean the wound.",
+            "Avoid picking at scabs as they form."
+          ]
+        }
+      },
+      {
+        "condition": "Avulsion",
+        "patterns": ["avulsion", "skin torn away", "partial amputation"],
+        "response": {
+          "emergency_help": "Seek emergency medical attention immediately, as avulsions often involve severe bleeding and tissue damage.",
+          "first_aid_steps": [
+            "Control bleeding by applying firm pressure with a clean cloth.",
+            "Elevate the injured area above heart level, if possible, to reduce bleeding.",
+            "Cover the wound with a sterile dressing and keep the torn tissue cool and moist.",
+            "Transport the patient and any detached tissue to a hospital promptly."
+          ],
+          "warnings": [
+            "Do not attempt to clean or remove debris from deep avulsions.",
+            "Avoid using ice directly on detached tissue."
+          ]
+        }
+      },
+      {
+        "condition": "Incision",
+        "patterns": ["incision", "surgical cut", "clean cut"],
+        "response": {
+          "emergency_help": "Seek medical care if the incision is deep, wide, or bleeding heavily.",
+          "first_aid_steps": [
+            "Wash hands and put on gloves if available.",
+            "Apply firm pressure to stop bleeding with a clean cloth or gauze.",
+            "Clean the wound gently with sterile saline or water.",
+            "Cover with a sterile dressing and seek further medical evaluation if needed."
+          ],
+          "warnings": [
+            "Do not close the wound with tape or stitches yourself unless instructed by a healthcare professional.",
+            "Avoid excessive movement of the affected area."
+          ]
+        }
+      },
+      {
+        "condition": "Crush Wound",
+        "patterns": ["crush wound", "heavy object injury", "crushed tissue"],
+        "response": {
+          "emergency_help": "Call emergency services if there is severe damage, significant bleeding, or loss of sensation.",
+          "first_aid_steps": [
+            "Remove the source of pressure if safe to do so.",
+            "Control bleeding with clean cloth or gauze and firm pressure.",
+            "Keep the injured area elevated to reduce swelling.",
+            "Cover with a sterile dressing and seek immediate medical care."
+          ],
+          "warnings": [
+            "Do not attempt to move the patient if a spinal injury is suspected.",
+            "Avoid massaging the affected area to prevent further tissue damage."
+          ]
+        }
+      },
+      {
+        "condition": "Dog Bite",
+        "patterns": ["dog bite", "bitten by a dog", "canine bite"],
+        "response": {
+          "emergency_help": "Seek immediate medical attention if the bite is deep, bleeding heavily, or if the dog’s vaccination status is unknown.",
+          "first_aid_steps": [
+            "Wash the bite area thoroughly with soap and running water for at least 5 minutes.",
+            "Apply pressure with a clean cloth to stop any bleeding.",
+            "Disinfect the wound with an antiseptic solution.",
+            "Cover the wound with a sterile dressing.",
+            "Seek medical attention for rabies evaluation and tetanus booster if needed."
+          ],
+          "warnings": [
+            "Do not delay medical care for severe bites or unknown vaccination status.",
+            "Avoid suturing deep bites unless directed by a healthcare provider, as this could trap bacteria."
+          ]
+        }
+      },
+      {
+        "condition": "Cat Bite or Scratch",
+        "patterns": ["cat bite", "cat scratch", "bitten by a cat"],
+        "response": {
+          "emergency_help": "Contact a healthcare provider immediately if swelling, redness, or fever develops, as cat bites are prone to infection.",
+          "first_aid_steps": [
+            "Wash the wound with soap and running water for at least 5 minutes.",
+            "Apply an antiseptic to the affected area.",
+            "Cover the wound with a sterile dressing.",
+            "Monitor for signs of infection, such as redness, swelling, or pus, and seek medical attention if these occur."
+          ],
+          "warnings": [
+            "Do not ignore minor cat bites or scratches, as they can lead to Cat Scratch Disease (caused by Bartonella bacteria).",
+            "Avoid using alcohol directly on the wound, as it may irritate the skin."
+          ]
+        }
+      },
+      {
+        "condition": "Snake Bite",
+        "patterns": ["snake bite", "bitten by a snake", "venomous snake bite"],
+        "response": {
+          "emergency_help": "Call emergency services immediately, especially if the snake is venomous or the type is unknown.",
+          "first_aid_steps": [
+            "Keep the victim calm and still to slow the spread of venom if the snake is venomous.",
+            "Immobilize the affected limb and keep it below the heart level.",
+            "Do not attempt to suck out the venom or cut the wound.",
+            "Remove any tight clothing or jewelry near the bite area to prevent constriction if swelling occurs.",
+            "Seek immediate medical attention or transport the victim to the nearest hospital."
+          ],
+          "warnings": [
+            "Do not use ice or apply a tourniquet.",
+            "Avoid handling the snake or trying to capture it."
+          ]
+        }
+      },
+      {
+        "condition": "Human Bite",
+        "patterns": ["human bite", "bitten by a person"],
+        "response": {
+          "emergency_help": "Seek medical attention for all human bites, as they carry a high risk of infection.",
+          "first_aid_steps": [
+            "Clean the wound with soap and warm running water for at least 5 minutes.",
+            "Disinfect the area with an antiseptic solution.",
+            "Cover with a sterile dressing to protect the wound.",
+            "Consult a healthcare provider for antibiotics or tetanus booster if required."
+          ],
+          "warnings": [
+            "Do not underestimate human bites; they can introduce harmful bacteria.",
+            "Avoid ignoring deep bites or bites near joints or tendons."
+          ]
+        }
+      },
+      {
+        "condition": "Bat Bite",
+        "patterns": ["bat bite", "bitten by a bat"],
+        "response": {
+          "emergency_help": "Contact emergency services immediately if a bat bite is suspected, as bats are a common carrier of rabies.",
+          "first_aid_steps": [
+            "Wash the wound thoroughly with soap and water for 5-10 minutes.",
+            "Disinfect with an antiseptic like iodine or alcohol-based solutions.",
+            "Cover the wound with a sterile dressing.",
+            "Seek medical care immediately for rabies post-exposure prophylaxis (PEP)."
+          ],
+          "warnings": [
+            "Do not handle bats directly without protective gloves.",
+            "Avoid assuming there is no risk if the bite mark is small or barely visible."
+          ]
+        }
+      },
+      {
+        "condition": "Minor Burn",
+        "patterns": ["minor burn", "first-degree burn", "superficial burn"],
+        "response": {
+          "emergency_help": "Medical attention is usually not required unless the burn covers a large area or is on the face, hands, or joints.",
+          "first_aid_steps": [
+            "Cool the burn by holding it under cool (not cold) running water for at least 10 minutes or applying a cool, wet compress.",
+            "Gently pat the burn dry with a clean cloth.",
+            "Apply a non-stick sterile dressing to protect the area.",
+            "Use over-the-counter pain relievers like ibuprofen or acetaminophen if needed."
+          ],
+          "warnings": [
+            "Do not apply ice directly to the burn, as this may worsen the injury.",
+            "Avoid applying butter, oils, or home remedies to the burn."
+          ]
+        }
+      },
+      {
+        "condition": "Partial-Thickness Burn",
+        "patterns": ["second-degree burn", "blister burn", "partial-thickness burn"],
+        "response": {
+          "emergency_help": "Seek medical attention if the burn is larger than 3 inches, affects sensitive areas, or shows signs of infection.",
+          "first_aid_steps": [
+            "Cool the burn by running cool (not cold) water over it for 10-15 minutes or applying a clean, wet compress.",
+            "Do not break blisters; leave them intact to prevent infection.",
+            "Cover the burn with a non-stick sterile dressing.",
+            "Keep the burn clean and dry, and avoid unnecessary pressure on the affected area."
+          ],
+          "warnings": [
+            "Do not use adhesive bandages that stick to the skin.",
+            "Avoid popping blisters or peeling skin, as this increases infection risk."
+          ]
+        }
+      },
+      {
+        "condition": "Full-Thickness Burn",
+        "patterns": ["third-degree burn", "deep burn", "full-thickness burn"],
+        "response": {
+          "emergency_help": "Call emergency services immediately. Do not attempt to treat the burn at home.",
+          "first_aid_steps": [
+            "Remove the victim from the heat source safely.",
+            "Ensure the victim is breathing and perform CPR if necessary.",
+            "Cover the burn with a cool, moist sterile cloth or bandage, but avoid soaking the burn.",
+            "Do not remove clothing stuck to the burn or apply ointments."
+          ],
+          "warnings": [
+            "Do not immerse a severe burn in water, as this can cause shock.",
+            "Avoid giving the victim food or drink in case surgery is required."
+          ]
+        }
+      },
+      {
+        "condition": "Chemical Burn",
+        "patterns": ["chemical burn", "burn from chemicals", "acid burn", "alkali burn"],
+        "response": {
+          "emergency_help": "Call emergency services immediately if the burn is large, severe, or involves the eyes, face, or sensitive areas.",
+          "first_aid_steps": [
+            "Remove contaminated clothing carefully to avoid further exposure.",
+            "Flush the burn with running cool water for at least 15-20 minutes to remove the chemical.",
+            "Cover the burn with a clean, sterile non-stick dressing.",
+            "Seek immediate medical attention for assessment and treatment."
+          ],
+          "warnings": [
+            "Do not use ointments, creams, or neutralizing agents unless directed by a medical professional.",
+            "Avoid touching the chemical or spreading it to other areas of the body."
+          ]
+        }
+      },
+      {
+        "condition": "Electrical Burn",
+        "patterns": ["electrical burn", "electric shock burn", "burn from electricity"],
+        "response": {
+          "emergency_help": "Call emergency services immediately, even if the burn seems minor, as electrical burns can cause internal damage.",
+          "first_aid_steps": [
+            "Ensure the source of electricity is turned off before approaching the victim.",
+            "Do not touch the victim if they are still in contact with the electrical source.",
+            "Check for breathing and pulse; perform CPR if necessary.",
+            "Cover visible burns with a sterile, non-stick dressing and keep the victim warm until help arrives."
+          ],
+          "warnings": [
+            "Do not apply water to electrical burns.",
+            "Avoid moving the victim unless absolutely necessary."
+          ]
+        }
+      },
+      {
+        "condition": "Sunburn",
+        "patterns": ["sunburn", "burn from the sun", "UV burn"],
+        "response": {
+          "emergency_help": "Seek medical attention if the sunburn is severe, covers a large area, or is accompanied by fever, chills, or dehydration.",
+          "first_aid_steps": [
+            "Move out of the sun and into a cool, shaded area.",
+            "Apply cool compresses to the affected skin or take a cool shower.",
+            "Use aloe vera or moisturizing lotions to soothe the skin.",
+            "Drink plenty of water to stay hydrated."
+          ],
+          "warnings": [
+            "Do not apply petroleum jelly or thick ointments that trap heat.",
+            "Avoid further sun exposure until the burn has healed."
+          ]
+        }
+      },
+      {
+        "condition": "Simple Fracture (Closed Fracture)",
+        "patterns": ["simple fracture", "closed fracture", "bone fracture without breaking the skin"],
+        "response": {
+          "emergency_help": "Call emergency services if the fracture involves the head, neck, spine, or major joints, or if the injured person shows signs of shock.",
+          "first_aid_steps": [
+            "Immobilize the affected limb using a splint or by tying it to a sturdy object.",
+            "Avoid moving the injured area unnecessarily.",
+            "Apply an ice pack wrapped in a cloth to reduce swelling and pain.",
+            "Elevate the limb slightly if there is no additional pain."
+          ],
+          "warnings": [
+            "Do not attempt to realign the bone.",
+            "Avoid giving the victim food or drink in case surgery is required."
+          ]
+        }
+      },
+      {
+        "condition": "Compound Fracture (Open Fracture)",
+        "patterns": ["compound fracture", "open fracture", "bone fracture breaking through the skin"],
+        "response": {
+          "emergency_help": "Call emergency services immediately, as this type of fracture poses a high risk of infection and severe bleeding.",
+          "first_aid_steps": [
+            "Control any bleeding by applying pressure around the wound (not directly on the exposed bone).",
+            "Cover the wound with a sterile, non-stick dressing.",
+            "Immobilize the limb with a splint or sling without moving the exposed bone.",
+            "Keep the victim as still and calm as possible until emergency help arrives."
+          ],
+          "warnings": [
+            "Do not attempt to push the bone back into place.",
+            "Avoid cleaning the wound or removing embedded objects."
+          ]
+        }
+      },
+      {
+        "condition": "Greenstick Fracture",
+        "patterns": ["greenstick fracture", "partial fracture", "fracture in children"],
+        "response": {
+          "emergency_help": "Contact a healthcare provider promptly for evaluation and treatment.",
+          "first_aid_steps": [
+            "Immobilize the limb using a splint or soft padding.",
+            "Apply a cold pack to reduce swelling and pain.",
+            "Avoid moving the injured limb unnecessarily."
+          ],
+          "warnings": [
+            "Do not attempt to manipulate the bone or apply excessive pressure.",
+            "Monitor for pain or swelling and seek professional care."
+          ]
+        }
+      },
+      {
+        "condition": "Stress Fracture",
+        "patterns": ["stress fracture", "hairline fracture", "overuse fracture"],
+        "response": {
+          "emergency_help": "Seek medical attention if the pain persists, worsens with activity, or is accompanied by swelling.",
+          "first_aid_steps": [
+            "Rest the affected area and avoid putting weight on it.",
+            "Apply ice wrapped in a cloth to reduce pain and inflammation.",
+            "Use over-the-counter pain relievers as directed by a healthcare provider."
+          ],
+          "warnings": [
+            "Do not resume physical activity until cleared by a doctor.",
+            "Avoid ignoring persistent pain, as it can lead to more severe fractures."
+          ]
+        }
+      },
+      {
+        "condition": "Skull Fracture",
+        "patterns": ["skull fracture", "head fracture", "fracture in the skull"],
+        "response": {
+          "emergency_help": "Call emergency services immediately. Skull fractures can be life-threatening.",
+          "first_aid_steps": [
+            "Keep the victim still and calm to prevent further injury.",
+            "If bleeding occurs, cover the wound with a sterile dressing and apply gentle pressure.",
+            "Do not attempt to stop the flow of clear fluid from the ears or nose; this may be cerebrospinal fluid.",
+            "Monitor the victim’s breathing and consciousness until help arrives."
+          ],
+          "warnings": [
+            "Do not move the victim unless absolutely necessary.",
+            "Avoid applying direct pressure to the fracture site or suspected areas of damage."
+          ]
+        }
+      },
+      {
+        "condition": "Spinal Fracture",
+        "patterns": ["spinal fracture", "fractured spine", "backbone fracture"],
+        "response": {
+          "emergency_help": "Call emergency services immediately. Avoid moving the victim to prevent further damage.",
+          "first_aid_steps": [
+            "Keep the victim as still as possible. Immobilize their head and neck if possible.",
+            "Place rolled towels or clothing on either side of the head to prevent movement.",
+            "Reassure the victim and keep them calm until help arrives."
+          ],
+          "warnings": [
+            "Do not attempt to reposition the victim or their spine.",
+            "Avoid transporting the victim unless absolutely necessary and trained to do so."
+          ]
+        }
+      },
+      {
+        "condition": "Rib Fracture",
+        "patterns": ["rib fracture", "broken rib", "cracked rib"],
+        "response": {
+          "emergency_help": "Seek medical care if the victim has difficulty breathing, severe pain, or signs of internal bleeding.",
+          "first_aid_steps": [
+            "Encourage the victim to sit upright to make breathing easier.",
+            "Apply a cold pack wrapped in a cloth to the affected area to reduce swelling and pain.",
+            "Use a pillow to support the injured area when coughing or moving.",
+            "Monitor for signs of shock or difficulty breathing."
+          ],
+          "warnings": [
+            "Do not bind the chest tightly, as this can restrict breathing.",
+            "Avoid vigorous activity until evaluated by a healthcare provider."
+          ]
+        }
+      }
+    ]
+  }
+  
